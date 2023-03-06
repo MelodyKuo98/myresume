@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#DEEBFC;
+    
+  }
+body.bg-template{
+    background-image:url(../image/bg_img.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+
+div.template{
+     color:#757B85;
+    }
+
+div.template ul{
+    margin:20px auto 20px auto;
+    padding:0;
+    list-style: none;
+    float:center;
+    position:absolute;   
+}
+
+nav.nav{
+    float:top;
+    width:100%;
+    height:60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #E4E8F6;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+    color:aliceblue;
+}
+
+div.nav-bar{
+    display: flex;
+    cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18px;
+    color:aliceblue;
+  
+}
+.nav-icon {
+  width: 25px;
+  height: 2px;
+  background-color:#4F699a;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin:20px;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu li a {
+  color: #4F699a;
+  text-decoration: none;
+    font-size:18px;
+    font-style:bold;
+}
+.menu li img{
+    width:55px;
+/*    background-image:url(../image/web_logo.jpg);*/
+    background-repeat: no-repeat;
+    margin:10px
+}
+
+
+
+header p{ 
+    float:left;
+    top: 20px;
+    margin:0px 400px 20px 0px;
+    padding: 0px 10px;
+    position: inherit;
+    color:#000;
+    }
+
+
+
+div.sidebar {
+  background-color: #E4E8F6;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+}
+
+div.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div.sidebar li {
+    margin:20px;
+    margin-left:80px;
+    margin-top:70px;
+    display: flex;
+    align-items: center;
+  border-bottom: 1.5px solid #647F91;
+}
+
+div.sidebar li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #4F699A;
+}
+
+div.sidebar li a:hover {
+  background-color: #DEEBFC;
+}
+
+a{
+    color:white;
+    font-style:normal;
+}
+
+li{
+    display:inline-block;
+    margin:0px 50px 0px 50px;
+    float:left;
+}
+
+div.dropdownmenu {
+    margin:20px auto 20px auto;
+    padding:0;
+    list-style: none;
+    float:center;
+    position:absolute;
+    color:#FFF;
+    
+}
+div.template a{
+    color:#757B85;
+}
+
+
+main#description b h2{
+    width:500px;
+    float:left;
+    color:#757B85;
+    margin-top: 150px;
+    margin-left:100px;
+    position:absolute;
+    padding:50px;
+}
+main#description h2{
+    width:500px;
+    float:left;
+    color:#757B85;
+    margin-top: 150px;
+    margin-left:100px;
+    position:absolute;
+    padding:50px;
+}
+main#description video{
+    width:500px;
+    height:500px;
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 200px;
+    padding:50px;
+}
+main#description li img{
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 400px;
+    padding:50px;
+}
+main#description img{
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 100px;
+    padding:50px;
+}
+
+main#description f img{
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 800px;
+    padding:50px;
+}
+main#description p{
+    color:#757B85;   
+    float:right;
+    margin-left: 800px;
+    margin-top:150px;
+    position:absolute;
+    font-size:25px;
+    padding:50px;
+    }
+main#description a{
+    color:#757B85;   
+    float:right;
+    margin-left: 800px;
+    margin-top: 250px;
+    padding: 50px;
+    position:absolute;
+    border: 0px;
+    font-size:15px;
+    text-align:match;
+}
+main#description d img {
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left:10px;
+    padding:50px;
+}
+main#description b img{
+    float: left;
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 400px;
+    padding:50px;
+}
+main#description c img{
+    float: left;
+    margin-top: 553px;
+    position: absolute;
+    margin-left: 10px;
+    padding:50px;
+}
+main#description e img {
+    float: left;
+    margin-top: 570px;
+    position: absolute;
+    margin-left: 400px;
+    padding:50px;
+}
+div.workimg {
+    border: 2px;
+    border-color: black;
+    position: absolute;
+    margin:auto;
+    }
+
+div.words p{
+    border: 2px;
+    border-color:black;
+    position: absolute;
+    margin:30px;
+    
+}
+h1{
+    float: left;
+    margin:600px 40px 200px 0px;
+    padding:50px;
+    font-size: 40px;
+    
+}
+h3{
+    float:right;
+    margin:600px 50px 200px 50px
+}
+footer{
+    margin: 1000px 20px 20px 400px;
+    color:#FFF;
+}
